@@ -83,4 +83,4 @@ async def predict_from_url(payload: ImageURL):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("pet_breed_api_scripted:app", host="0.0.0.0", port=8052)
+    uvicorn.run("pet_breed_api:app", host="0.0.0.0", port=8052)
